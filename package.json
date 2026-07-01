@@ -1,0 +1,6 @@
+{
+  "name": "it-watch",
+  "version": "1.0.0",
+  "description": "IT-Watch - לוח בקרת מוצרי IT חודשי",
+  "engines": { "node": ">=18" }
+}

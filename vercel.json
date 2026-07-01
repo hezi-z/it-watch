@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron",
+      "schedule": "0 6 1 * *"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/news",
+      "headers": [
+        { "key": "Cache-Control", "value": "s-maxage=86400, stale-while-revalidate=3600" }
+      ]
+    }
+  ]
+}
